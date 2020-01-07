@@ -11,7 +11,8 @@ inputs:
     default: "/pocketmine/phpstan.neon" # this file is already present in the container and will work fine for plugins
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image:
+    path: ""
   env:
     PHPSTAN_CONFIG: ${{ inputs.phpstan-config }}
   args:

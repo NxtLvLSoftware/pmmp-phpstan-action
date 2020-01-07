@@ -1,7 +1,3 @@
 #!/bin/sh
 
-for entry in /github/workspace/*
-do
-  echo "$entry"
-done
-#sh -c "analyze $*"
+sh -c "ln -s /github/workspace /source && analyze $*"

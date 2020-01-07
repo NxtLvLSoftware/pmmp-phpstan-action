@@ -1,6 +1,6 @@
 FROM nxtlvlsoftware/pmmp-phpstan:master
 
-VOLUME /github/workspace /source
+VOLUME /source
 
 ADD entrypoint.sh /entrypoint.sh
 
