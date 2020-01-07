@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sh -c "ln -s /github/workspace /source && analyze $*"
+sh -c "ln -s /github/workspace/* /source && analyze $*"
