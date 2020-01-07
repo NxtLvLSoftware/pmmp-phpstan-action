@@ -1,7 +1,7 @@
-#!/bin/sh -l
+#!/bin/sh
 
 for entry in /source/*
 do
   echo "$entry"
 done
-sh -c "analyze $*"
+#sh -c "analyze $*"
