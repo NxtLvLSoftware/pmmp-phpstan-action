@@ -1,4 +1,7 @@
 #!/bin/sh -l
 
-sh -c "ls /source"
+for entry in source/*
+do
+  echo "$entry"
+done
 sh -c "analyze $*"
