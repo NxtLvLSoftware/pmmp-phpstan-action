@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-for entry in source/*
+for entry in /source/*
 do
   echo "$entry"
 done
