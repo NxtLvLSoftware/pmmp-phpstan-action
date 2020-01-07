@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for entry in /source/*
+for entry in /github/workspace/*
 do
   echo "$entry"
 done
