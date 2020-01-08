@@ -4,7 +4,7 @@ inputs:
   source:
     description: "Path to the source directory to run analysis on."
     required: false
-    default: .
+    default: /source/src
   phpstan-config:  # path to the php stan config to use
     description: "Path to the phpstan.neon configuration file."
     required: false
