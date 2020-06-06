@@ -1,4 +1,4 @@
-FROM nxtlvlsoftware/pmmp-phpstan:3.11.6
+FROM nxtlvlsoftware/pmmp-phpstan:3.12.6
 
 USER root
 
